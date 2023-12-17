@@ -1,11 +1,10 @@
 name: dijkstra
 description:  Find shortest path. A Dart port of https://github.com/tcort/dijkstrajs library.
-version: 0.0.4
+version: 0.0.5
 homepage: https://github.com/shareven/dijkstra
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  test: ^1.25.0
